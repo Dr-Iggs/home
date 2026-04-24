@@ -6,7 +6,7 @@
     text-align:justify;
     color: white;
     background: grey;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -36,6 +36,25 @@ span{
     font-family: Helvetica;
 }
 
+/* Mobile view */
+@media (max-width: 768px) {
+  .title {
+    text-align:center;
+    font-size: xx-large;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  #container {
+    column-count: 2;
+    column-gap: 0px;
+    background: grey;
+    font-family: Helvetica;
+  }
+
+  .overlay {
+    font-size:small;
+  }
+}
 .item {
     break-inside: avoid;
     margin-bottom: 10px;

@@ -36,12 +36,12 @@ function displayimages(imagelist) {
     const hasLink = row.link && row.link.trim() !== "";
 
     const content = `
-        <img src="Images/${row.filepath}" alt="Image" class="${row.tags}">
+        <img src="Images/${row.filepath}" alt="Image" >
         <div class="overlay">${row.description}</div>
     `;
 
     html += `
-        <div class="item" id="plot${row.id}">
+        <div class="item ${row.tags}" id="plot${row.id}">
         ${hasLink 
             ? `<a href="${row.link}">${content}</a>` 
             : content
