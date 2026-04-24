@@ -1,8 +1,7 @@
 
 .title {
     font-family: Helvetica;
-    font-size: 3em;
-    font-kerning: 10;
+    font-size: 5em;
     text-align:justify;
     color: white;
     background: grey;
@@ -63,7 +62,7 @@ span{
     margin-right: 10px;
     position: relative;
     background: grey;
-    padding: 0px;
+    padding-bottom: 10px;
 }
 
 .item img {
