@@ -6,7 +6,7 @@ fetch("imageinfo.csv")
   })
   .catch(err => {
     console.error("Failed to load visuals.csv", err);
-    //window.location.reload();
+    window.location.reload();
   });
 
 function parseCSV(csvText) {

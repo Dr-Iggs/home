@@ -1,15 +1,49 @@
+
+.title {
+    font-family: Helvetica;
+    font-size: 3em;
+    font-kerning: 10;
+    text-align:justify;
+    color: white;
+    background: grey;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+span{
+  background-color:grey;
+  width:100%;
+  height:1em;
+  display:inline-block;
+}
+/*
+.bio {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: large;
+    background: grey;
+    color: white;
+    padding-bottom: 20 px;
+}
+    */
+
 #container {
     column-count: 3;      /* number of columns */
     column-gap: 0px;
     background: grey;
+    
+    font-family: Helvetica;
 }
 
 .item {
     break-inside: avoid;
-    margin: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
     background: grey;
-    padding: 10px;
+    padding: 0px;
 }
 
 .item img {
