@@ -5,7 +5,7 @@ id,filepath,description,link,tags,year
 4,15 Shadow.gif,For Genuary 2026: prompt of -Shadow-,,R GenArt,2026
 5,Asset Age Within Markets.png,Comparing various store markets and the age of individual assets within each store,,R BusinessAnalytics MUSA,2026
 6,Custom District Spatial.png,Custom geospatial viz of actual store districts for easy comparison of performance,,Python PowerBI Geospatial MUSA,2025
-7,pbi d3 viz.png,Custom d3 visual tracking how customers responded to different tiers of discounts, dynamic by initiative,D3 PowerBI Python MUSA BusinessAnalytics,2025
+7,pbi d3 viz.png,Custom d3 visual tracking how customers responded to different tiers of discounts,,D3 PowerBI Python MUSA BusinessAnalytics,2025
 8,randomized storenum dallas.png,Company research studying how different stores within the same market perform over time as they age. Part of $3M store reinvestment project,,R MUSA BusinessAnalytics,2026
 9,08 Cityscape.png,For Genuary 2026: prompt of -City-,,R GenArt,2026
 10,19 16x16.png,For Genuary 2026: prompt of -16x16-,,R GenArt,2026
@@ -15,8 +15,8 @@ id,filepath,description,link,tags,year
 14,Asset Age by Market.png,Part of $3M store reinvestment: How competition and store performance interact in different markets with varying asset ages.,,PowerPoint Excel MUSA,2026
 15,Store Competitor Impact.png,Part of $3M store reinvestment: How competitor entry influenced 300 different stores.,,PowerPoint Excel MUSA,2026
 16,cintas bathroom.png,News article aggregating Cintas Best Bathroom Award winners,,R WebScraping Journalism,2023
-17,disneyanimated.gif,Article for Disney turning 100, their impact on industry and consolidation,R WebScraping Animation,2023
-18,disneystatic.png,Article for Disney turning 100, their impact on industry and consolidation,R WebScraping,2023
+17,disneyanimated.gif,Article for Disney turning 100 about their impact on industry and consolidation,,R WebScraping Animation,2023
+18,disneystatic.png,Article for Disney turning 100 about  their impact on industry and consolidation,,R WebScraping,2023
 19,housingscatter.png,Idaho Press Club Winner for Best Student Investigative Piece on student housing management,,R Excel Journalism,2023
 20,Housing.png,Idaho Press Club Winner for Best Student Investigative Piece on student housing management,,R Excel Journalism Geospatial,2023
 21,hackathon.png,Hackathon Winner: a program to recognize quotations within journal entries,,Python History,2023
