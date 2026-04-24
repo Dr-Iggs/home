@@ -1,0 +1,190 @@
+/*
+Theme Name: BYU-I Scroll
+Version: 1.0
+Description: A child theme of Extra
+Author: Deborah Owen
+Template: Extra
+*/
+
+@import url("../Extra/style.css");
+#et-trending-button{
+  display:none;
+}
+
+i{
+font-style: italic;
+}
+
+
+h2.entry-title a, h3.entry-title a{
+  font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+  color:black!important;
+}
+
+.et_pb_extra_module .posts-list article .post-thumbnail {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0;
+  float: revert;
+}
+
+
+/* Underline styles - details of technique here: https://nickymeuleman.netlify.app/blog/css-animated-wrapping-underline */
+.entry-title a {
+  background: 
+    linear-gradient(to right, rgba(161, 57, 53, 0), rgba(161, 57, 53, 0)),
+    linear-gradient(to right, rgba(161, 57, 53, 1), rgba(161, 57, 53, 1), rgba(161, 57, 53, 1));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+	text-decoration: none;
+}
+
+/* link styles */
+.et_pb_slide img{
+  width: 100%;
+}
+
+.et_pb_section a{
+color: #a13935!important;
+}
+
+.et_pb_section a:hover{
+text-decoration: underline;
+}
+
+.entry-title a:hover, .entry-title a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+			text-decoration: none;
+
+}
+
+
+.post-meta {
+  padding: 0 0 0 0px!important;
+  color: rgba(0,0,0,.5);
+  font-size: 12px;
+}
+
+.et_pb_extra_module{
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+@media screen and (min-width:1023px){
+.posts-list{
+  display: grid;
+grid-template-columns: repeat(2, 50%);
+grid-template-rows: repeat(2);
+grid-column-gap: 0px;
+grid-row-gap: 0px; 
+}
+  
+  .main-post .entry-title a{
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 54px;
+  color:black!important;
+}
+  
+  
+#et-navigation li a {
+  padding: 5px 0;
+}
+  
+}
+
+.featured-image-caption{
+  text-align:center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.post-meta a[rel=tag]{
+  background: rgba(161, 57, 53, 1);
+  padding: 0px 8px;
+  color:white!important;
+  display: inline-block;
+  transition: .4s;
+  margin: 2px;
+}
+
+
+
+.post-meta a[rel=tag]:hover{
+  background: rgba(161, 57, 53, 0.7);
+  padding: 0px 8px;
+  color:white!important;
+  display: inline-block;
+}
+
+.et_extra_layout .et_pb_extra_column_main .et_pb_column_2_3 .et_extra_other_module .main-post, .et_extra_layout .et_pb_extra_column_main .et_pb_column_2_3 .et_pb_extra_module .main-post, .et_extra_layout .et_pb_extra_column_main .et_pb_column_3_4 .et_extra_other_module .main-post, .et_extra_layout .et_pb_extra_column_main .et_pb_column_3_4 .et_pb_extra_module .main-post, .et_extra_layout .et_pb_extra_column_main .et_pb_column_4_4 .et_extra_other_module .main-post, .et_extra_layout .et_pb_extra_column_main .et_pb_column_4_4 .et_pb_extra_module .main-post, .et_extra_layout .et_pb_extra_column_main .et_pb_column_4_4.et_pb_column_inner.et_pb_column_inner_3 .et_extra_other_module .main-post, .et_extra_layout .et_pb_extra_column_main .et_pb_column_4_4.et_pb_column_inner.et_pb_column_inner_3 .et_pb_extra_module .main-post, .et_pb_extra_column_2_3 .et_extra_other_module .main-post, .et_pb_extra_column_2_3 .et_pb_extra_module .main-post, .et_pb_extra_column_3_4 .et_extra_other_module .main-post, .et_pb_extra_column_3_4 .et_pb_extra_module .main-post, .et_pb_extra_column_4_4 .et_extra_other_module .main-post, .et_pb_extra_column_4_4 .et_pb_extra_module .main-post {
+  border-right: 0 solid rgba(0,0,0,0);
+  border-bottom: 0;
+}
+
+.module-head,
+.tabbed-post-module .tabs {
+ background:#fff;
+ width:100%;
+  border-bottom:0px solid rgba(0,0,0,0);
+}
+.et_pb_extra_module .posts-list li {
+  width: 100%;
+  border-bottom:0px solid rgba(0,0,0,0);
+}
+
+.post-meta.vcard{
+  padding-top: 12px!important;
+}
+
+.et_pb_posts_0>.module-head{
+  display:none;
+}
+
+.et_extra_other_module, .et_pb_extra_module, .posts-blog-feed-module.masonry .hentry, .project-details, .woocommerce-page div.product .extra-woocommerce-details-accordion, .woocommerce-page div.product div.summary, .woocommerce-page ul.products li.product .product-wrapper, .woocommerce div.product .extra-woocommerce-details-accordion, .woocommerce div.product div.summary, .woocommerce ul.products li.product .product-wrapper {
+  border-top: 0px solid #00a8ff;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0);
+  box-shadow: 0 1px 3px rgba(0,0,0,0);
+}
+
+.posts-blog-feed-module .hentry {
+  border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+
+.featured-posts-slider-module .carousel-item .post-content-box {
+background: rgba(0,0,0,.6)!important;
+}
+
+.et_pb_extra_overlay::before {
+  content: " "!important;
+}
+
+
+/* SIDEBAR */
+
+.widget_et_recent_entries .post-meta{
+  display:none;
+}
+
+.et_pb_widget.widget_tag_cloud a.tag-cloud-link {
+  margin: 5px 1px 0 0;
+  font-size: 10px !important;
+  padding: 2px 4px;
+  border: 0px!important;
+}
+
+.et_pb_salvattore_content h2.entry-title a{
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+.et_pb_salvattore_content .column{
+  margin: 1%!important;
+}

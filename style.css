@@ -1,0 +1,48 @@
+#container {
+    column-count: 3;      /* number of columns */
+    column-gap: 0px;
+    background: grey;
+}
+
+.item {
+    break-inside: avoid;
+    margin: 0px;
+    position: relative;
+    background: grey;
+    padding: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  height: 25%;                 /* always bottom quarter */
+  background: rgba(0, 0, 0, 1);
+  color: white;
+
+  display: flex;               /* center text nicely */
+  align-items: center;
+  justify-content: center;
+  text-align: center;      /* center multi-line text */
+  padding: 10px 15px;      /* 👈 space from edges */
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.item:hover .overlay {
+  opacity: 0.8;
+}
+
+.overlay div:hover {
+    transform: scale(2);
+    z-index: 10;
+}
