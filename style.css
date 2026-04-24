@@ -52,7 +52,8 @@ span{
   }
 
   .overlay {
-    font-size:small;
+    font-size:x-small;
+    padding: 0px;
   }
 }
 .item {
