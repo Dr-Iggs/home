@@ -27,6 +27,28 @@ span{
 }
     */
 
+#filters {
+  text-align:justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+body {
+  background-color: grey;
+}
+
 #container {
     column-count: 3;      /* number of columns */
     column-gap: 0px;
@@ -43,6 +65,11 @@ span{
     padding-left: 0%;
     padding-right: 0%;
   }
+
+  button {
+    padding-bottom: 5px;
+  }
+  
   #container {
     column-count: 2;
     column-gap: 0px;
@@ -98,4 +125,8 @@ span{
 .overlay div:hover {
     transform: scale(2);
     z-index: 10;
+}
+
+.hidden {
+  display: none;
 }

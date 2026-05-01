@@ -3,10 +3,12 @@ fetch("imageinfo.csv")
   .then(csvText => {
     images = parseCSV(csvText);
     displayimages(images);
+    images.length
+    makefilters(images.length);
   })
   .catch(err => {
     console.error("Failed to load visuals.csv", err);
-    window.location.reload();
+    //window.location.reload();
   });
 
 function parseCSV(csvText) {
@@ -49,6 +51,41 @@ function displayimages(imagelist) {
         </div>
     `;
     });
-
+    
     container.innerHTML = html;
 }
+
+function makefilters(totalimages) {
+
+  const filterList = ['R','Python','GenArt','Geospatial','MUSA','Excel','BusinessAnalytics','Journalism','LDS'
+  ];
+  let html = `<button data-filter='All'>All (${totalimages})</button>`;
+  filterList.forEach(filterClass => {
+    let classCount = document.querySelectorAll(`.${filterClass}`).length;
+    html += `
+    <button data-filter="${filterClass}">${filterClass} (${classCount})</button>
+    `;
+  });
+  html += "<span> </span>";
+  filters.innerHTML = html;
+
+  // Get all items
+  const items = Array.from(document.querySelectorAll('.item'));
+
+  // Get all filter buttons
+  const buttons = document.querySelectorAll('#filters button');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const filter = button.dataset.filter;
+
+      items.forEach(item => {
+        if (filter === 'All' || item.classList.contains(filter)) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    });
+  });
+};
