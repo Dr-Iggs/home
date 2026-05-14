@@ -1,7 +1,7 @@
 id,filepath,description,link,tags,year
 1,04 Low Resolution.jpg,Recreating movie posters from the screenplay,https://colorcodedfilms.etsy.com,R Prints GenArt,2024
 2,05 Draw Genuary.jpg,For Genuary: an interactive text drawer using shapes,https://dr-iggs.shinyapps.io/Text_to_Boxes/,R Shiny GenArt,2026
-3,MurphyGuessr.png,A simple webgame where you’re placed on Google Street View and have to guess which MurphyUSA store it is.,https://dr-iggs.github.io/MUSAGuessr/,JS Geospatial MUSA,2026
+3,MurphyGuessr.png,A simple webgame where youâ€™re placed on Google Street View and have to guess which MurphyUSA store it is.,https://dr-iggs.github.io/MUSAGuessr/,JS Geospatial MUSA,2026
 4,15 Shadow.gif,For Genuary 2026: prompt of  <b>Shadow</b>,,R GenArt,2026
 5,Asset Age Within Markets.png,Comparing various store markets and the age of individual assets within each store,,R BusinessAnalytics MUSA,2026
 6,Custom District Spatial.png,Custom geospatial viz of actual store districts for easy comparison of performance,,Python PowerBI Geospatial MUSA BusinessAnalytics,2025
@@ -42,3 +42,4 @@ id,filepath,description,link,tags,year
 41,emotions.png,Text analysis to recognize the emotions of journal pages,,Python ML History LDS,2023
 42,primeportrait.png,Turns self-portraits into prime numbers,,Python GenArt,2024
 43,oscarnom.png,Breakdown of Best Picture nominees & Winners,,R ,2023
+44,walmart impact.png,Pre-post impact of Walmart closures on store performance,,SQL BusinessAnalytics MUSA PowerPoint, 2026
